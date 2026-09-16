@@ -29,3 +29,17 @@ Each packaged skill is also available as an expanded folder so its instructions 
 - `rae-spanish/`: Authoritative Spanish-language review instructions and reference material.
 - `twilio-a2p-10dlc/`: A2P 10DLC skill instructions, business/campaign field references, Trust Hub → Brand → Campaign API flow (Node + curl), and troubleshooting/error-code reference.
 - `verifier-canto/`: Canto answer verifier instructions, source priority (Confluence IH, Slack, Help Center, legal pages, Trust Center), verdict logic, and output format.
+
+## Working in this repo
+
+`main` is the installable catalog. It is the only long-lived branch. Do not keep standing branches per skill.
+
+Open a short-lived branch, pull-request into `main`, then delete the branch:
+
+| Work | Branch |
+| --- | --- |
+| New skill | `skill/<name>` |
+| Update one skill | `skill/<name>-<change>` |
+| Source or fact fixes | `fix/<skill>-<what>` |
+| README / catalog only | `docs/readme` |
+| Throwaway experiment | `wip/<topic>` |
