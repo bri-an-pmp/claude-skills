@@ -1,6 +1,6 @@
 # Claude Skills
 
-A collection of reusable AI skills for digital asset management, e-commerce integrations, agile product management, brand governance, and authoritative Spanish-language review.
+A collection of reusable AI skills for digital asset management, e-commerce integrations, agile product management, brand governance, customer-answer verification, and authoritative Spanish-language review.
 
 ## Available skills
 
@@ -11,6 +11,7 @@ A collection of reusable AI skills for digital asset management, e-commerce inte
 | [Back to the Feature](./back-to-the-feature/SKILL.md) | Agile product management assistant that converts customer pain points, product gaps, and enhancement ideas into actionable feature requests with user stories, problem statements, proposed solutions, acceptance criteria, and prioritization signals. | [back-to-the-feature.skill](./back-to-the-feature.skill) |
 | [RAE Spanish](./rae-spanish/SKILL.md) | Spanish-language quality assurance specialist that validates spelling, grammar, terminology, usage, and translations against guidance from the Real Academia Española and other authoritative Spanish-language institutions. | Browse skill folder |
 | [Twilio A2P 10DLC](./twilio-a2p-10dlc/SKILL.md) | Expert on US A2P 10DLC registration for Twilio: Trust Hub profiles, Brand registration with The Campaign Registry (TCR), Campaign registration, and the exact business/campaign information to collect, with an HTTP-level walkthrough of every API call in the flow. | Browse skill folder |
+| [Verifier Canto](./verifier-canto/SKILL.md) | Fact-checks a Canto product answer against Confluence, Slack #product_questions, Help Center, legal pages, and the Trust Center. Returns a confirmed / unverified / contradicted verdict with source references — no padding. | Browse skill folder |
 
 ## Installation
 
@@ -27,3 +28,4 @@ Each packaged skill is also available as an expanded folder so its instructions 
 - `back-to-the-feature/`: Agile feature request structure, user story format, acceptance criteria, and prioritization guidance.
 - `rae-spanish/`: Authoritative Spanish-language review instructions and reference material.
 - `twilio-a2p-10dlc/`: A2P 10DLC skill instructions, business/campaign field references, Trust Hub → Brand → Campaign API flow (Node + curl), and troubleshooting/error-code reference.
+- `verifier-canto/`: Canto answer verifier instructions, source priority (Confluence IH, Slack, Help Center, legal pages, Trust Center), verdict logic, and output format.
