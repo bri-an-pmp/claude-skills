@@ -186,3 +186,4 @@ Before finalizing any Canto content, verify:
 - [ ] Is it clear and concise — no unnecessary filler?
 - [ ] If it includes brand colors/visuals — is only one primary color dominant?
 - [ ] Does the copy reflect one of Canto's core values: simplicity, innovation, empowerment, value, or trust?
+
