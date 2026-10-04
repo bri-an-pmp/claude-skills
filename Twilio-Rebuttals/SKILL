@@ -1,0 +1,20 @@
+---
+name: twilio-rebuttals
+description: Use when handling Twilio A2P 10DLC objections, carrier rejection rebuttals, or customer pushback on SMS compliance requirements.
+---
+
+# Twilio Rebuttals Skill
+
+## Purpose
+Handle common objections and carrier rejections related to Twilio A2P 10DLC registration and SMS compliance.
+
+## Common Scenarios
+
+### Carrier Rejection Rebuttals
+[Add your rebuttal scripts here]
+
+### Customer Objections
+[Add objection handling here]
+
+### Escalation Paths
+[Add escalation guidance here]
