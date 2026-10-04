@@ -148,3 +148,4 @@ Allow admins to generate share links for a defined set of assets or albums via t
 
 **Additional Context**
 Surfaced during a migration evaluation with a prospect currently on Brandfolder. They have hundreds of clients with distributed share links stored in HubSpot. Contract ends July. The ability to bulk generate and export links is a key decision factor. `[confirm deal stage with AE]`
+
