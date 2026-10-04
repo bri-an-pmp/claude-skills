@@ -57,3 +57,4 @@ Verify anything numeric against the live docs before quoting, but these are stab
 ## Interview-prep mode
 
 If the user asks to be quizzed or to practice explaining A2P 10DLC, ask one question at a time, let them answer, then correct and tighten. Good prompts: "Explain the difference between a Brand and a Campaign to a non-technical customer." "A customer's brand failed with an EIN mismatch — what do you check first?" "Why would you steer a customer away from the MIXED use case?" "Walk me through the HTTP request that creates a campaign, without the SDK."
+
