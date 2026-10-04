@@ -62,3 +62,4 @@ Work from `references/troubleshooting.md`, which organizes common failure signat
 - This skill was built from Canto's public marketing pages, public help center, and the public SwaggerHub resource listing for the PIM API (which did not expose full request/response JSON schemas). Treat anything not explicitly sourced from `references/` as informed inference, not documented fact, and say so to the user when it matters (e.g., before they paste something into a customer-facing doc).
 - Ask which Canto tenant region and which specific commerce platform(s) are in play early — most of the guidance in this skill branches on both.
 - When a customer or the user's own memory conflicts with something in `references/`, prefer what's freshly confirmed (a live tenant, a recent API response, a current web search) over the reference file — these platforms' APIs change often, and the reference files reflect a point-in-time snapshot.
+
