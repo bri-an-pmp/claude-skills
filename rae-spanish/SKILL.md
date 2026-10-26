@@ -11,7 +11,7 @@ The RAE (and the pan-Hispanic body it coordinates, ASALE) is the prescriptive au
 
 ## Authoritative sources
 
-Use `web_search` / `web_fetch` against these — don't rely on general web results when a claim needs to be authoritative:
+Use your web search and page-fetch tools against these — don't rely on general web results when a claim needs to be authoritative:
 
 - **DLE — dle.rae.es** — the official dictionary (23rd ed., updated continuously online). Word validity, definitions, etymology, regional usage labels.
 - **DPD — dpd.rae.es** — Diccionario panhispánico de dudas. The best single source for usage disputes and common errors (dequeísmo, laísmo, anglicisms, "cuyo," preposition regime, etc.).
@@ -25,7 +25,7 @@ Use `web_search` / `web_fetch` against these — don't rely on general web resul
 
 For a single, bounded question (word validity, correct spelling, a grammar rule, a usage dispute):
 
-1. Search/fetch the relevant RAE resource for the specific term or rule.
+1. Search or fetch the relevant RAE resource for the specific term or rule.
 2. Answer directly and conversationally in chat — this doesn't need a report.
 3. Cite what you found: paraphrase rather than reproducing the entry (DLE content is copyrighted — see Output discipline below), and link the source URL.
 4. If the RAE's position differs from common usage, from what the user assumed, or from a non-RAE style guide, say so explicitly — that gap is very often exactly what the user is trying to find out.
@@ -40,22 +40,28 @@ For a passage, document, or translation the user wants validated:
 4. Compile findings as a table:
 
    | Segment | Issue type | What's flagged | RAE citation | Suggested fix |
-      |---|---|---|---|---|
+   |---|---|---|---|---|
 
-      5. Ask whether they want this inline in chat (present the table directly) or as a saved deliverable. For a saved report, use the `docx` skill to produce a short audit document — title, pass/fail summary, findings table, sources consulted — and save it to the outputs directory.
+5. Ask whether they want this inline in chat (present the table directly) or as a saved deliverable. For a saved report, use a Word-document skill if one is available (otherwise a Markdown file) to produce a short audit document — title, pass/fail summary, findings table, sources consulted — and save it next to the source file.
 
-      ### QA'ing translator-en-es output specifically
+### QA'ing translator-en-es output specifically
 
-      This skill is complementary to `translator-en-es`, not competing with it: that skill owns tone, register, and glossary decisions for a translation; this skill certifies RAE-standard correctness. If a translation deliberately deviates from strict RAE norms for audience reasons (voseo for an Argentine audience, informal register for a youth brand), note it as an intentional choice rather than an error — only flag it if it looks unintentional or inconsistent within the same document.
+This skill is complementary to `translator-en-es`, not competing with it: that skill owns tone, register, and glossary decisions for a translation; this skill certifies RAE-standard correctness. If a translation deliberately deviates from strict RAE norms for audience reasons (voseo for an Argentine audience, informal register for a youth brand), note it as an intentional choice rather than an error — only flag it if it looks unintentional or inconsistent within the same document.
 
-      ## Output discipline
+## Output discipline
 
-      - Never write "the RAE says X" without having actually checked a current RAE source earlier in this same response.
-      - Never reproduce full DLE or DPD entries verbatim — paraphrase definitions in your own words, quote at most a few words if a specific wording matters, and always link to the entry itself. DLE content is RAE's copyrighted work.
-      - Keep quick-lookup answers conversational and short. Keep audit findings in the scannable table format above, not prose paragraphs — the person reviewing a QA pass wants to scan rows, not read essays.
-      - If a rule is genuinely contested or regionally variable even within RAE's own guidance, say so rather than presenting a single answer as more settled than it is.
+- Never write "the RAE says X" without having actually checked a current RAE source earlier in this same response.
+- Never reproduce full DLE or DPD entries verbatim — paraphrase definitions in your own words, quote at most a few words if a specific wording matters, and always link to the entry itself. DLE content is RAE's copyrighted work.
+- Keep quick-lookup answers conversational and short. Keep audit findings in the scannable table format above, not prose paragraphs — the person reviewing a QA pass wants to scan rows, not read essays.
+- If a rule is genuinely contested or regionally variable even within RAE's own guidance, say so rather than presenting a single answer as more settled than it is.
 
-      ## Reference
+## Reference
 
-      `references/common-issues.md` — a checklist of the usage disputes and error categories the DPD most commonly addresses. Read it when doing a Mode 2 audit to know what to scan for; it's a starting checklist, not a replacement for verifying each specific flag against a live source.
-      
+`references/common-issues.md` — a checklist of the usage disputes and error categories the DPD most commonly addresses. Read it when doing a Mode 2 audit to know what to scan for; it's a starting checklist, not a replacement for verifying each specific flag against a live source.
+
+## When you can't reach a source
+
+If web search or fetch is unavailable, or the RAE site doesn't answer, say so plainly at the top of the answer and mark every finding as **unverified**. Don't present a remembered rule as checked.
+
+For software strings (placeholders, tags, character limits), use the `l10n-qa` skill from the [Spanish Translation Skills plugin](https://github.com/bri-an-pmp/spanish-translation-skills); this skill covers the language, not the code.
+
