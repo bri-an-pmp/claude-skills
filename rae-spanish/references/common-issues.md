@@ -2,12 +2,12 @@
 
 A starting checklist for Mode 2 audits. This tells you what to look for — always confirm the specific instance against dpd.rae.es or dle.rae.es before flagging it, since correct usage can depend on context and regional variety.
 
-  ## Grammar
+## Grammar
 
-  - **Dequeísmo / Queísmo** — adding "de" before "que" where it doesn't belong ("pienso de que...") or dropping a required "de" ("me acuerdo que..." instead of "me acuerdo de que...").
-  - **Laísmo / Loísmo / Leísmo** — misuse of "la/lo/le" as direct/indirect object pronouns. Standard usage varies by region and RAE tolerates leísmo for personal "le" in some contexts — check DPD before flagging.
-  - **Preposition regime errors** — verbs that take a specific preposition used with the wrong one ("consistir de" instead of "consistir en"; "quedar en verse" vs "quedar de verse").
-  - **Gerundio de posterioridad** — using the gerund to describe an action that happened after the main verb rather than simultaneously with it (a very common error in news writing and translated text).
+- **Dequeísmo / Queísmo** — adding "de" before "que" where it doesn't belong ("pienso de que...") or dropping a required "de" ("me acuerdo que..." instead of "me acuerdo de que...").
+- **Laísmo / Loísmo / Leísmo** — misuse of "la/lo/le" as direct/indirect object pronouns. Standard usage varies by region and RAE tolerates leísmo for personal "le" in some contexts — check DPD before flagging.
+- **Preposition regime errors** — verbs that take a specific preposition used with the wrong one ("consistir de" instead of "consistir en"; "quedar en verse" vs "quedar de verse").
+- **Gerundio de posterioridad** — using the gerund to describe an action that happened after the main verb rather than simultaneously with it (a very common error in news writing and translated text).
 - **Agreement across long noun phrases** — gender/number agreement breaking down when a subject and its modifiers are separated by a long clause.
 - **"Cuyo" misuse** — using "cuyo" where "que" or "del cual" would be correct, or failing to make it agree with the possessed noun.
 
